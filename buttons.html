@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="buttons.html">Buttons</a>
+      <a href="badge.html">Badges</a>
+      <a href="alert.html">Alerts</a>
+      <a href="grid.html">Grid</a>
+      <a href="gridAlignment.html">Grid_Align</a>
+      <a href="responsiveGrid.html">Respons_Grid</a>
+      <a href="bootstrapForms.html">Forms</a>
+      <a href="navbar.html">Navbar</a>
+      <a href="icons.html">Icons</a>
+      <a href="utilitys.html">Utility</a>
+    </nav>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2>Example</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+      <hr />
+      <div>
+        <h2>Outline buttons</h2>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">
+          Secondary
+        </button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+      <hr />
+
+      <div>
+        <h2>Sizes</h2>
+        <button type="button" class="btn btn-primary btn-lg">
+          Large button
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg">
+          Large button
+        </button>
+
+        <button type="button" class="btn btn-primary btn-sm">
+          Small button
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm">
+          Small button
+        </button>
+      </div>
+      <div>
+        <h2>Disabled state</h2>
+        <button type="button" class="btn btn-lg btn-primary" disabled>
+          Primary button
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg" disabled>
+          Button
+        </button>
+      </div>
+      <hr />
+      <div>
+        <h2>Block buttons</h2>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button">Button</button>
+          <button class="btn btn-primary" type="button">Button</button>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h2>Toggle states</h2>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="button"
+          autocomplete="off"
+        >
+          Toggle button
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary active"
+          data-bs-toggle="button"
+          autocomplete="off"
+          aria-pressed="true"
+        >
+          Active toggle button
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          disabled
+          data-bs-toggle="button"
+          autocomplete="off"
+        >
+          Disabled toggle button
+        </button>
+
+        <a
+          href="#"
+          class="btn btn-primary"
+          role="button"
+          data-bs-toggle="button"
+          >Toggle link</a
+        >
+        <a
+          href="#"
+          class="btn btn-primary active"
+          role="button"
+          data-bs-toggle="button"
+          aria-pressed="true"
+          >Active toggle link</a
+        >
+        <a
+          class="btn btn-primary disabled"
+          aria-disabled="true"
+          role="button"
+          data-bs-toggle="button"
+          >Disabled toggle link</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
